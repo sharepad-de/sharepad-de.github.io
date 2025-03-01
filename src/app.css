@@ -1,5 +1,22 @@
 @import 'tailwindcss';
 
-h2 {
-    font-size: 20px;
+@plugin 'flowbite/plugin';
+
+@theme {
+  --color-primary-50: #fff9f5;
+  --color-primary-100: #fff0e5;
+  --color-primary-200: #ffead1;
+  --color-primary-300: #ffdcb0;
+  --color-primary-400: #ffc98e;
+  --color-primary-500: #ffac63;
+  --color-primary-600: #ff9825;
+  --color-primary-700: #ff8200;
+  --color-primary-800: #e17700;
+  --color-primary-900: #b65f03;
+}
+
+@source "../node_modules/flowbite-svelte/dist";
+
+h1 {
+    @apply mb-10 mt-10 text-6xl font-bold;
 }
