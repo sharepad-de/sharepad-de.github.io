@@ -11,5 +11,6 @@
 				"parser": "svelte"
 			}
 		}
-	]
+	],
+	"svelteSortOrder": "options-markup-styles-scripts"
 }
