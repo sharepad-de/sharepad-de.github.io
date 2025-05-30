@@ -141,37 +141,48 @@
 <Section side="right" title="Los geht's..." id="getting-started">
 	<P>
 		<BookOpenPageVariantIcon class="float-right ml-4 text-[4em] text-blue-500" />
-		Um mit sharePAD zu starten, müssen folgende Schritte durchgeführt werden. Zusätzlich gibt es für
-		elkato-Nutzer eine
-		<A href="elkato-migration.pdf">ausführliche Migrationsanleitung</A>.
+		Um mit sharePAD zu starten, müssen folgende Schritte durchgeführt werden. Das System läuft dabei
+		vorerst in einem kostenfreien Demobetrieb. Die Benutzer sowie die Admins können so nach Belieben
+		testen und sich mit dem System vertraut machen.
 	</P>
 
 	<UL>
 		<LI>
-			eine Organisation/Gruppe <A href="https://app.sharepad.de/register">anlegen</A>.<br />
-			<em
-				>Hinweis: während die Reservierungsoberfläche sowohl auf Handy als auch PC/Tablet
-				hervorragend funktioniert, wird für das Anlegen und Verwalten von sharePAD über die <A
-					href="https://app.sharepad.de/admin">Adminoberfläche</A
-				> ein PC/Tablet empfohlen.</em
+			<b>eine Organisation/Gruppe <A href="https://app.sharepad.de/register">anlegen</A>.</b><br />
+			HINWEIS: während die Reservierungsoberfläche sowohl auf Handy als auch PC/Tablet hervorragend funktioniert,
+			wird für das Anlegen und Verwalten von sharePAD über die <A
+				href="https://app.sharepad.de/admin">Adminoberfläche</A
+			> ein PC/Tablet empfohlen.
+		</LI>
+		<LI>
+			<b>Optional: die Benutzer vorab informieren.</b><br />
+			Die Benutzer sollten frühzeitig von der Umstellung erfahren. Es empfiehlt sich ihnen vorab <A
+				href="https://www.youtube.com/watch?v=EbiKOrDU5_s">den Einführungs&shy;screencast</A
 			>
+			zu schicken.
 		</LI>
 		<LI>
-			Optional: die Benutzer vorab informieren, dass das Reservierungssystem eingerichtet wurde.
-			Ggf. kann auch
-			<A href="https://www.youtube.com/watch?v=EbiKOrDU5_s">der Einführungs&shy;screencast</A>
-			mitgeschickt werden.
+			<b>Einpflegen der Daten.</b><br />
+			Für Organisationen die von elkato migrieren gibt es hierfür eine
+			<A href="elkato-migration.pdf">ausführliche Migrationsanleitung</A>.<br />
+			Für neue Organisationen sind folgende Schritte notwendig:
+			<UL>
+				<LI><b>In der Adminoberfläche alle Ressourcen anlegen.</b></LI>
+				<LI>
+					<b>In der Adminoberfläche alle Benutzer anlegen.</b><br />
+					Diese bekommen dabei automatisch eine Einladungsmail in der sie auch ihre Passwörter vergeben
+					können.<br />
+					ACHTUNG: Bei der automatischen Migration von elkato wird das elkato-Passwort übernommen, weshalb
+					auch keine Einladungsmails an die migrierten Nutzer versendet werden.
+				</LI>
+			</UL>
 		</LI>
-		<LI>In der Adminoberfläche alle Ressourcen anlegen</LI>
 		<LI>
-			In der Adminoberfläche alle Benutzer anlegen<br />
-			(diese bekommen dabei automatisch eine Einladungsmail in der sie auch ihre Passwörter vergeben
-			können).<br />Da es vorerst im Demobetrieb läuft können die Benutzer nach Belieben testen und
-			sich mit dem System vertraut machen.
-		</LI>
-		<LI>
-			Sobald sich alle das System angesehen haben kann der Regelbetrieb starten. Hierzu muss in der
-			Adminoberfläche unter "Einstellungen" der entsprechende Button geklickt werden.
+			<b>In den Produktivbetrieb wechseln</b><br />
+			Um dann in den Produktivbetrieb zu wechseln muss in der Adminoberfläche unter "Einstellungen" der
+			entsprechende Button geklickt werden. <br />
+			ACHTUNG: elkato-Nutzer müssen vorher nocheinmal migrieren um auch wirklich den aktuellen Stand
+			in sharePAD zu haben.
 		</LI>
 	</UL>
 </Section>
