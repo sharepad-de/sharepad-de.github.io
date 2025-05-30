@@ -68,6 +68,11 @@
 			werden kann.
 		</LI>
 		<LI>
+			<Badge title="Geplant" />
+			<span class="font-bold">Für e-Autos:</span> Berücksichtigung des erwarteten Batterieladezustands
+			bei Reservierungen.
+		</LI>
+		<LI>
 			Partnerschaften mit Nachbarorganisationen, so dass deren Mitglieder die eigenen Ressourcen
 			mitnutzen können.
 		</LI>
