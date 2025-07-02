@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Präsentation sharePAD auf dem Carsharing Kongress 2024</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+    <style>
+      .slides section h1 {
+        text-transform:none;
+        color:orange;
+      }
+    </style>
+	</head>
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+          <img src="../favicon.png" alt="sharePAD logo" width="200px">
+          <h1>sharePAD</h1>
+          Ein modernes Reservierungssystem<br>für Carsharing Vereine
+        </section>
+
+        <section>
+          <h1>Wer bin ich?</h1>
+          <ul>
+            <li>Robert Hölzl</li>
+            <li>Mitglied bei Endorfer Autoteiler</li>
+            <li>Entwickle seit über 35 Jahren Software<br>(seit 25 Jahren beruflich)</li>
+            <li>Verantworte bei Baltech AG die Firmware- und Softwareentwicklung</li>
+          </ul>
+        </section>
+
+				<section>
+          <h1>Motivation</h1>
+          <ul>
+            <li class="fragment fade-up">Benutzerschnittstelle (Mobile First)</li>
+            <li class="fragment fade-up">
+              Neue Funktionen
+              <ul>
+                <li class="fragment fade-right">Integration neues ZK System</li>
+                <li class="fragment fade-right">E-Auto Unterstützung</li>
+                <li class="fragment fade-right">...</li>
+              </ul>
+            </li>
+            <li class="fragment fade-up">Langfristig: Abrechung</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Weitere Zielsetzungen</h1>
+          <ul>
+            <li class="fragment fade-up">
+              Einsatz von Cloud-Technologie
+              <ul>
+                <li class="fragment fade-right">Mehrstufiges, automatisiertes Ausrollen</li>
+                <li class="fragment fade-right">Monitoring</li>
+                <li class="fragment fade-right">Sicherheitslückenmanagement</li>
+                <li class="fragment fade-right">...</li>
+              </ul>
+            </li>
+            <li class="fragment fade-up">Alle Funktionen über die Weboberfläche verfügbar</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Meilensteine</h1>
+          <ul>
+            <li class="fragment fade-right"><b>Jun 2024:</b> Pilot bei EnAT</li>
+            <li class="fragment fade-right"><b>Q4 2024:</b> Erweiterter Pilot mit WAT und AMAG</li>
+            <li class="fragment fade-right"><b>Q1 2025:</b> Start bei VAT mit ZK</li>
+            <li class="fragment fade-right"><b>Q2 2025:</b> Offen für Alle</li>
+            <li class="fragment fade-right">...</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>It's Showtime...</h1>
+          <div class="fragment fade-right" style="width: 80%; margin-left:auto; margin-right:auto; text-align: left;">
+          <div><a href="https://demo.sharepad.de/app">demo.sharepad.de/app</a></div>
+          <div>Email: <span style="font-family: 'Courier New'">demo@sharepad.de</span></div>
+          <div>Passwort: <span style="font-family: 'Courier New'">demo</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h1>Preismodell</h1>
+          <div><b>2,50 EUR/Autos/Monat</b></div>
+          <div>bzw.</div>
+          <div>kostenlos falls keine Abrechnung notwendig</div>
+        </section>
+
+        <section>
+          <h1>Fragen...</h1>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+        controls: false,
+				hash: true,
+        pdfSeparateFragments: false,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

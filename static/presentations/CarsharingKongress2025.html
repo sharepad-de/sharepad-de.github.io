@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Präsentation sharePAD auf dem Carsharing Kongress 2025</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+    <style>
+      .slides section h1 {
+        text-transform:none;
+        color:orange;
+      }
+    </style>
+	</head>
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+          <img src="../favicon.png" alt="sharePAD logo" width="200px">
+          <h1>sharePAD</h1>
+          Ein modernes Reservierungssystem<br>für Carsharing Vereine
+        </section>
+
+				<section>
+          <ul>
+            <li>Aktueller Stand sharePAD</li>
+            <li>Migration von elkato</li>
+            <li>Was fehlt für sehr große Vereine (aka. VAT)</li>
+            <li>Langfristige Roadmap</li>
+            <li>Besprechung Migrationsplan</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Aktueller Stand</h1>
+          <ul>
+            <li class="fragment fade-right">Seit über 12 Monaten im Einsatz</li>
+            <li class="fragment fade-right">8 Vereine</li>
+            <li class="fragment fade-right">knapp 500 Benutzer<br/>(davon 150 monatlich aktive Benutzer)</li>
+            <li class="fragment fade-right"><a href="https://test.sharepad.de" target="_blank">app.sharepad.de</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Migration von elkato</h1>
+          <ul>
+            <li class="fragment fade-right"><a href="https://www.sharepad.de" target="_blank">Registrierung Verein</a></li>
+            <li class="fragment fade-right">
+              <a href="https://test.sharepad.de/admin/migration" target="_blank">Import elkato-Daten</a>
+              <ol>
+                <li>
+                  Testmigration für Admin/Vorstand</br>
+                  <em>Fotos aktuell per EMail einreichen</em>
+                </li>
+                <li class="fragment fade-right">
+                  Demomigration für Benutzer</br>
+                  <em>Nutzerlogin: EMail + Bestehendes elkato Passwort</em>
+                </li>
+                <li class="fragment fade-right">
+                  Produktivmigration</br>
+                  <em>Danach ggf. Quernutzungsanfrage per EMail einreichen.</em>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Roadmap bis Start VAT</h1>
+          <ul>
+            <li class="fragment fade-right">
+              Angezeigte Ressourcen einschränken
+              <ul>
+                <li>auf Zeitraum in dem Verfügbar</li>
+                <li>Nur Kleinwagen, Bus, mit Anhängekupplung, Elektro, ...</li>
+              </ul>
+            </li>
+            <li class="fragment fade-right">Sortierung nach Entfernung zum Nutzer</li>
+            <li class="fragment fade-right">Bei Klick Erweiterte Infos zu Ressource</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Integration ZK</h1>
+        </section>
+
+        <section>
+         <h1>Ausblick</h1>
+          <ul>
+            <li class="fragment fade-right">Passwortvergessen Button für Benutzer</li>
+            <li class="fragment fade-right">Echte Handy App</li>
+            <li class="fragment fade-right">E-Auto Ladeplanung</li>
+            <li class="fragment fade-right">Unterscheidung zwischen Logins und Benutzer</li>
+            <li class="fragment fade-right">Anzeige aller meiner Buchungen im Kalender</li>
+            <li class="fragment fade-right">Kalender vergrößerbar</li>
+            <li class="fragment fade-right">Reservierungswarteschlange</li>
+            <li class="fragment fade-right">API (für eigene Erweiterungen)</li>
+            <li class="fragment fade-right">Kartenansicht</li>
+            <li class="fragment fade-right">Wiederholende Buchungen</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Zeitlicher Ablauf</h1>
+          <ul>
+            <li class="fragment fade-right">Nov 25 in Diskussion für Umstieg VAT</li>
+            <li class="fragment fade-right">Anfang Okt 25 Rundmail von VAT zu diesem Thema</li>
+            <li class="fragment fade-right">Diskussion: Wie kann der Umstieg am besten gemeinsam gemeistert werden?</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+        controls: false,
+				hash: true,
+        pdfSeparateFragments: false,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+
+  </body>
+</html>
