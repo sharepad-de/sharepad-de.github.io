@@ -132,6 +132,7 @@
 				<LI>Datenexport für Abrechnung</LI>
 				<LI>Anbindung an Zutritts&shy;kontroll&shy;system <br /><em>(sobald verfügbar)</em></LI>
 				<LI>Anbindung an elektronisches Fahrtenbuch <br /><em>(sobald verfügbar)</em></LI>
+				<LI>Zugriff per API</LI>
 				<LI><b>2,50 EUR / Monat / Ressource</b> welche mind. eines der obigen Features benötigt</LI>
 			</UL>
 		</Plan>
@@ -185,6 +186,25 @@
 			in sharePAD zu haben.
 		</LI>
 	</UL>
+</Section>
+
+<Section side="left" title="sharePAD selber erweitern" id="extend-sharepad">
+	<P>
+		Wer sehr spezielle Erweiterungswünsche für sharePAD hat, dem stellt sharePAD auch eine
+		Erweiterungsschnittstelle (ein sogananntes API) zur Verfügung. Notwendig dazu ist eine
+		EntwicklerIn (z.B. aus der Organisation) die die Funktionalität umsetzt und hierzu über das API
+		auf die Daten von sharePAD zugreift.
+	</P>
+	<P>
+		Das API ist unter <A href="https://beta.sharepad.de/docs">https://app.sharepad.de/docs</A>
+		dokumentiert. Um darauf zuzugreifen wird ein sogenannter API Key benötigt. Wie dieser erstellt wird
+		ist <A href="https://www.youtube.com/watch?v=9vgOzmRG4To">hier</A>
+		dokumentiert.
+	</P>
+	<P>
+		Zu beachten ist, daß die API nur für Pro-Benutzer (siehe <A href="#pricing">Preise</A>) zur
+		Verfügung steht!
+	</P>
 </Section>
 
 <div
