@@ -266,6 +266,7 @@
 					<li><a href="mailto:info@sharepad.de" class="text-warm-600 hover:text-primary-600 transition-colors">info@sharepad.de</a></li>
 					<li><a href="/site/impressum" class="text-warm-600 hover:text-primary-600 transition-colors">Impressum</a></li>
 					<li><a href="Datenschutzerklärung.pdf" class="text-warm-600 hover:text-primary-600 transition-colors">Datenschutzerklärung</a></li>
+						<li><a href="AGB.pdf" class="text-warm-600 hover:text-primary-600 transition-colors">Allgemeine Geschäftsbedingungen (AGB)</a></li>
 						<li><a href="Auftragsverarbeitungsvertrag.pdf" class="text-warm-600 hover:text-primary-600 transition-colors">Auftragsverarbeitungsvertrag (AVV)</a></li>
 				</ul>
 			</div>
